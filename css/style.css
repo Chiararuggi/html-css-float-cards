@@ -28,6 +28,7 @@ header h1{
 
 header p{
     margin-top: 50px;
+    font-weight: 600;
 }
 
 .row{
@@ -75,4 +76,8 @@ header p{
 
 .row{
     margin-top: 50px;
+}
+
+.text{
+    padding-left: 130px;
 }
