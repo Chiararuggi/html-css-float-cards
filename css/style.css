@@ -8,14 +8,16 @@ body{
     font-family: Montserrat, sans herif;
 }
 
-#container{
-    width: 1500px;
-    margin:0 auto;
+main{
+    text-align: center;
+    width: 80%;
+    margin:auto;
 }
 
 header{
     text-align: center;
-    margin-top: 20px;
+    width: 80%;
+    margin:auto;
 }
 
 header h1{
@@ -25,5 +27,52 @@ header h1{
 }
 
 header p{
+    margin-top: 50px;
+}
+
+.row{
+    text-align: center;
+    width: 90%;
+    margin:auto;
+}
+
+.card{
+    background-color: rgb(2, 0, 34);
+    color: white;
+    width: 430px;
+    float: left;
+    margin:15px;
+    text-align: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.card img{
+    float: left;
+    width:120px;
+}
+
+.card h2{
+    margin-top: 7px;
+    font-weight: 800;
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(58, 172, 207);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.card p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row{
     margin-top: 50px;
 }
